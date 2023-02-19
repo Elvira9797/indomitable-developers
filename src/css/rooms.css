@@ -14,7 +14,8 @@
   }
   .room-2{
     background-color: #F0ECD6;
-    
+    padding-top: 32px;
+    overflow: hidden;
   }
   .room-text-up{
     font-weight: 400;
@@ -23,6 +24,17 @@
     color: var(--gray-1);
     margin-top: 32px;
     margin-bottom: 0;
+  }
+  .pre-section-title{
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .section-title{
+    font-size: 40px;
+  }
+  .after-section-title{
+    font-size: 12px;
+    margin-top: 12px;
   }
   .room-text-up-mirror{
     font-weight: 400;
@@ -72,25 +84,28 @@
     margin-bottom: 0;
     text-align: right;
   }
-  .room-text-about{
+  /* .room-text-about{
     width: 258px;
     margin-top: 12px;
     margin-bottom: 0;
     
-  }
-  .room-text-about-mirror{
+  } */
+  /* .room-text-about-mirror{
     width: 242px;
     margin-top: 12px;
     margin-bottom: 0;
     margin-right: 74px;
     margin-left: 87px;
-  }
+  } */
   .room-text{
     font-weight: 600;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    width: 258px;
+    margin-top: 12px;
+    margin-bottom: 0;
   }
   .room-text-mirror{
     font-weight: 600;
@@ -98,6 +113,11 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    width: 242px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-right: 74px;
+    margin-left: 87px;
   }
   .room-button-1{
     width: 236px;
@@ -240,6 +260,7 @@
     position: absolute;
     margin-top: 386px;
     margin-right: -30%;
+    margin-left: 90px;
     
   }
   .slide-1{
@@ -321,6 +342,49 @@
     width: 32px;
     height: 32px;
   }
+  .pre-section-title-mirror{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: var(--gray-1);
+
+    margin-bottom: 0;
+    
+    text-align: right;
+    
+    
+  }
+  .after-section-title{
+    width: 258px;
+  }
+  .section-title-mirror{
+    font-family: 'FilmP3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #494848;
+  margin-top: 8px;
+    margin-bottom: 0;
+    text-align: right;
+    letter-spacing: 0.3em;
+  }
+  .after-section-title-mirror{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+
+    width: 242px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 113px;
+    
+    
+  }
+  
   } 
   @media screen and (min-width: 320px) and (max-width: 413px){
     .container{
@@ -410,9 +474,14 @@
       color: var(--black);
       margin-top: 32px;
       margin-bottom: 0;
-      margin-left: 47px;
+      /* margin-left: 47px; */
   
     letter-spacing: 0.05em;
+    }
+    .after-section-title{
+        width: 439px;
+        margin-top: 16px;
+        
     }
     .room-tittle-mirror{
       font-weight: 700;
@@ -423,28 +492,32 @@
       margin-bottom: 0;
       text-align: right;
       letter-spacing: 0.05em;
-      margin-right: 45px;
+      margin-right: 75px;
     }
-    .room-text-about{
+    /* .room-text-about{
       width: 439px;
       margin-top: 12px;
       margin-bottom: 0;
       margin-left: 47px;
       
-    }
-    .room-text-about-mirror{
+    } */
+    /* .room-text-about-mirror{
       width: 400px;
       margin-top: 12px;
       margin-bottom: 0;
       
       margin-left: 557px;
-    }
+    } */
     .room-text{
       font-weight: 600;
       font-size: 16px;
       line-height: 1.25;
       letter-spacing: 0.02em;
       color: var(--primary-color);
+      width: 439px;
+      margin-top: 12px;
+      margin-bottom: 0;
+      margin-left: 47px;
       
   
     
@@ -455,6 +528,12 @@
       line-height: 1.25;
       letter-spacing: 0.02em;
       color: var(--primary-color);
+
+      width: 400px;
+      margin-top: 12px;
+      margin-bottom: 0;
+      
+      margin-left: 557px;
     }
     .room-button-1{
       width: 236px;
@@ -583,7 +662,7 @@
       
     }
     .room-first-image-mirror{
-      margin-top: -430px;
+      margin-top: -370px;
       position: absolute;
       margin-left: 112px;
   
@@ -600,7 +679,7 @@
     .room-slide-box-mirror{
       display: flex;
       position: absolute;
-      margin-top: 150px;
+      margin-top: 200px;
       margin-left: 549px;
     }
     .slide-1{
@@ -668,7 +747,7 @@
       padding-bottom: 40px;
     }
     .arrows-mirror{
-      margin-top: 380px;
+      margin-top: 415px;
       margin-left: 548px;
       padding-bottom: 40px;
       
@@ -689,7 +768,46 @@
       width: 32px;
       height: 32px;
     }
+
+    .pre-section-title-mirror{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.15;
+        color: var(--gray-1);
+    
+        margin-bottom: 0;
+        
+        text-align: right;
+        
+      }
+      .section-title-mirror{
+        font-family: 'FilmP3';
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 1.08;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #494848;
+      margin-top: 8px;
+        margin-bottom: 0;
+        text-align: right;
+        letter-spacing: 0.3em;
+      }
+      .after-section-title-mirror{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: var(--primary-color);
+    
+        width: 400px;
+        margin-top: 12px;
+        margin-bottom: 0;
+        
+        margin-left: 560px;
+      }
   }
+  
   
   /* -------------------------------------- desktop */
   @media screen and (min-width: 1280px){
@@ -733,7 +851,7 @@
     
     text-align: right;
     
-    padding-top: 72px;
+    
    
   }
   .room-logo{
@@ -776,6 +894,32 @@
   
   
   }
+  .pre-section-title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    color: var(--gray-1);
+  }
+  .section-title{
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #494848;
+  }
+  .after-section-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+
+    width: 439px;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
   .room-tittle-mirror{
     font-weight: 700;
     font-size: 36px;
@@ -783,29 +927,35 @@
     color: var(--black);
     margin-top: 32px;
     margin-bottom: 0;
-    text-align: right;
+    margin-left: 639px;
     letter-spacing: 0.05em;
     
   }
-  .room-text-about{
+  /* .room-text-about{
     width: 439px;
     margin-top: 12px;
     margin-bottom: 0;
     
     
-  }
-  .room-text-about-mirror{
+  } */
+  /* .room-text-about-mirror{
     width: 400px;
       margin-top: 12px;
       margin-bottom: 0;
       margin-left: 639px;
-  }
+  } */
   .room-text{
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+
+    width: 439px;
+    margin-top: 12px;
+    margin-bottom: 0;
+
+
     
   
   
@@ -816,6 +966,11 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+
+    width: 400px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 639px;
   }
   
   .room-button-1{
@@ -944,7 +1099,7 @@
     
   }
   .room-first-image-mirror{
-    margin-top: -455px;
+    margin-top: -390px;
     position: absolute;
     margin-left: 90px;
   
@@ -963,7 +1118,7 @@
   .room-slide-box-mirror{
     display: flex;
     position: absolute;
-    margin-top: 180px;
+    margin-top: 240px;
     margin-left: 553px;
   }
   .slide-1{
@@ -1032,7 +1187,7 @@
   }
   
   .arrows-mirror{
-    margin-top: 454px;
+    margin-top: 510px;
     margin-left: 552px;
       padding-bottom: 40px;
     
@@ -1056,7 +1211,45 @@
     width: 32px;
     height: 32px;
   }
+  .pre-section-title-mirror{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    color: var(--gray-1);
+
+    margin-bottom: 0;
+    
+    text-align: right;
+    
   }
+  .section-title-mirror{
+    font-family: 'FilmP3';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #494848;
+  margin-top: 8px;
+    margin-bottom: 0;
+    text-align: right;
+    letter-spacing: 0.3em;
+  }
+  .after-section-title-mirror{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+
+    width: 439px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    
+    margin-left: 639px;
+  }
+  }
+  
   
   
   
