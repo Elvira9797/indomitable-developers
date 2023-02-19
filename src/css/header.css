@@ -8,32 +8,33 @@
   left: 0;
   width: 100%;
   z-index: 3;
+
 }
 
 .header-room {
-  background: linear-gradient(
-    180deg,
-    #000000 0%,
-    rgba(0, 0, 0, 0.55) 54.17%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 54.17%,
+      rgba(0, 0, 0, 0) 100%);
 }
 
 .header-container {
   display: flex;
+
 }
 
 .header-logo {
   align-items: center;
   font-family: 'FilmP3';
   font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.083;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-right: 52px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: var(--white);
 }
 
@@ -49,7 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .navigation-adress {
@@ -63,10 +64,12 @@
 }
 
 .navigation-restaurant-icon {
+  display: block;
   fill: rgba(243, 198, 83, 0.7);
 }
 
 .navigation-hotel-icon {
+  display: block;
   fill: rgba(243, 198, 83, 0.7);
 }
 
@@ -77,24 +80,30 @@
   .header-container {
     align-items: center;
   }
+
   .navigation-restaurant-icon {
     margin-right: 10px;
   }
+
   .header-logo {
     margin-right: 13px;
     font-size: 30px;
   }
+
   .header {
     width: 100%;
   }
+
   .navigation-adress {
     font-size: 12px;
     justify-content: right;
   }
+
   .navigation-list {
-    padding-top: 28px;
+    padding-top: 20px;
   }
 }
+
 /* /Зміни оформлення для екранів 320px */
 
 /* Приховування елементів  */
@@ -107,11 +116,13 @@
     display: none;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .header-adress {
     display: none;
   }
 }
+
 /* /Приховування елементів  */
 
 /* ------HEADER TABLET 1024+ --------*/
@@ -120,12 +131,12 @@
     font-size: 40px;
     margin-right: 207px;
     padding-top: 24px;
-    padding-bottom: 33px;
+    padding-bottom: 24px;
   }
 
   .navigation-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     align-items: center;
     gap: 72px;
   }
@@ -152,13 +163,16 @@
   .adress-tell {
     display: flex;
     justify-content: center;
+    width: 144px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     padding: 8px 8px 8px 8px;
   }
+
   .navigation-restaurant-icon {
     margin-right: 4px;
   }
+
   .navigation-hotel-icon {
     margin-right: 4px;
   }
@@ -172,6 +186,7 @@
   .header-logo {
     margin-right: 135px;
   }
+
   .header-social {
     display: flex;
     justify-content: center;
@@ -180,6 +195,7 @@
     padding-bottom: 24px;
     gap: 21px;
   }
+
   .header-navigation {
     margin-right: 142px;
   }
