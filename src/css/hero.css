@@ -165,6 +165,16 @@
   }
 }
 
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+  .mimino-tittle {
+    width: 414px;
+  }
+
+  .hero-paragraph {
+    font-size: 27px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .hero-container {
     padding-top: 188px;
