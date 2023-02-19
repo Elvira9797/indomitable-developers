@@ -8,6 +8,7 @@
   left: 0;
   width: 100%;
   z-index: 3;
+  
 }
 
 .header-room {
@@ -21,19 +22,21 @@
 
 .header-container {
   display: flex;
+  
 }
 
 .header-logo {
   align-items: center;
   font-family: 'FilmP3';
   font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.083;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-right: 52px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: var(--white);
 }
 
@@ -63,10 +66,12 @@
 }
 
 .navigation-restaurant-icon {
+  display: block;
   fill: rgba(243, 198, 83, 0.7);
 }
 
 .navigation-hotel-icon {
+  display: block;
   fill: rgba(243, 198, 83, 0.7);
 }
 
@@ -92,7 +97,7 @@
     justify-content: right;
   }
   .navigation-list {
-    padding-top: 28px;
+    padding-top: 20px;
   }
 }
 /* /Зміни оформлення для екранів 320px */
@@ -120,12 +125,12 @@
     font-size: 40px;
     margin-right: 207px;
     padding-top: 24px;
-    padding-bottom: 33px;
+    padding-bottom: 24px;
   }
 
   .navigation-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     align-items: center;
     gap: 72px;
   }
@@ -152,6 +157,7 @@
   .adress-tell {
     display: flex;
     justify-content: center;
+    width: 144px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     padding: 8px 8px 8px 8px;

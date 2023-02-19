@@ -7,11 +7,13 @@
   margin-left: auto;
   margin-right: auto;
   
+  
 
 }
 
 .hero-container {
   padding-top: 181px;
+  align-items: center;
   
 }
 
@@ -58,6 +60,28 @@
 }
 
 .hero-button {
+  width: 232px;
+  text-align: center;
+  font-family: inherit;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--white);
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  padding: 14px 24px;
+  color: var(--akzent-yellow);
+  
+  
+  transition: background-color var(--timing-function), border var(--timing-function);
+}
+
+.hero-link {
+  width: 232px;
+
+  text-align: center;
   font-family: inherit;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.4);
@@ -71,6 +95,7 @@
   color: var(--akzent-yellow);
   
   transition: background-color var(--timing-function), border var(--timing-function);
+
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -117,6 +142,9 @@ border: 2px solid #F3C653;
   color: #E5E5E5;
 }
 
+.hero-list {
+align-items: center;
+}
 /* -------------/DEFAULT STYLE HERO--------- */
 
 /* ---------------HOMEPAGE STYLE HERO------------- */
@@ -125,6 +153,14 @@ border: 2px solid #F3C653;
     position: relative;
 
   }
+
+  .hero-link {
+    display: block;
+     padding: 14px 32px;
+     margin-left: auto;
+    margin-right: auto;
+  }
+
 
   .hero-list {
     margin-bottom: 58px;
@@ -144,6 +180,8 @@ border: 2px solid #F3C653;
     top: 64px;
   }
 
+  
+
  
 
 
@@ -152,15 +190,15 @@ border: 2px solid #F3C653;
 
 @media screen and (max-width:413px) {
   .mimino-tittle {
-  font-size: 93px;
-  width:290px
+  font-size: 88px;
+  width:285px
   }
 
   .hero-paragraph {
     font-size: 27px;
 
   }
-  
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -212,6 +250,9 @@ border: 2px solid #F3C653;
   .hero-list-item:last-child {
     margin-left: 40px;
   }
+  .hero-link {
+    display: block;
+  }
 }
 
 
@@ -225,6 +266,10 @@ border: 2px solid #F3C653;
   .hero-social-list {
     display: none;
 
+  }
+
+  .hero-link {
+   
   }
 
   .mimino-tittle {
