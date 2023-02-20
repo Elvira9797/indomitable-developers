@@ -1,6 +1,6 @@
 .about-kitchen__container {
   position: relative;
-  overflow-x: hidden;
+
   background: #fffdee;
 }
 
@@ -162,6 +162,7 @@
   .about-kitchen__container {
     padding-top: 16px;
     padding-bottom: 16px;
+    overflow-x: hidden;
   }
 
   .about-kitchen__container .after-section-title {

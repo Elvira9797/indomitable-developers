@@ -1,6 +1,5 @@
 .about-hotel__container {
   position: relative;
-  overflow-x: hidden;
   background: #fffdee;
 }
 
@@ -168,6 +167,7 @@
   .about-hotel__container {
     padding-top: 16px;
     padding-bottom: 16px;
+    overflow-x: hidden;
   }
 
   .about-hotel__container .after-section-title {
