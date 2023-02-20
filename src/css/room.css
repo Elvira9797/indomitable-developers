@@ -149,6 +149,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   cursor: pointer;
+  transition: all var(--timing-function);
 }
 
 .room-hero__btn:hover,
@@ -216,6 +217,7 @@
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
+  transition: all var(--timing-function);
 }
 
 .booking-btn:hover,
@@ -263,7 +265,7 @@
 @media screen and (min-width: 1024px) {
   .room {
     height: 718px;
-    background-image: url('../img/mobile/hero/hero-bedx1.jpg');
+    background-image: url('../img/tablet/hero/hero-bedx1.jpg');
   }
   .room-address {
     top: calc(100% - 56px - 22px);
@@ -283,6 +285,7 @@
   }
   .room-hero__title {
     font-size: 36px;
+    width: 510px;
   }
   .room-hero__text {
     width: 400px;
@@ -356,6 +359,7 @@
     bottom: 48px;
   }
   .hero-socials__list {
+    display: none;
     left: calc(100% - 112px - 15px);
     bottom: calc(100% - 24px - 38px);
     z-index: 99;
