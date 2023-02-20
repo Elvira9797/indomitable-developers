@@ -1,9 +1,8 @@
-
-    <div class="detail-of-restoran">
+<section class="detail-of-restoran">
     <div class="container">
         <div class="restoran-logo">
-            <h2 class="detail-restoran-logo">MIMIHO</h2>
-            <h3 class="text-after-logo">Ресторан</h3>
+            <h1 class="detail-restoran-logo">MIMIHO</h1>
+            <h2 class="text-after-logo">Ресторан</h2>
             <p class="text-afret-restoran">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
         </div>
         <div class="button-images">
@@ -12,27 +11,44 @@
                 <button class="view-the-menu" type="button">Переглянути меню</button>
             </div>
             <div class="restoran-images">
-                <ul class="restoran-list list">
-                    <li class="restoran-item">
-                        <picture><source srcset="./img/mobile/about-restaurant-down/steakx1.jpg 1x,./img/mobile/about-restaurant-down/steakx2.jpg 2x">
-                        <img src="./img/mobile/about-restaurant-down/steakx1.jpg" alt="photo" width="274" height="270"></picture>   
-                    </li>
-                    <li class="restoran-item">
-                        <picture><source srcset="../img/mobile/about-restaurant-down/kebabx1.jpg 1x,./img/mobile/about-restaurant-down/kebabx2.jpg 2x">
-                        <img src="./img/mobile/about-restaurant-down/kebabx1.jpg" alt="photo" width="274" height="270"></picture>
-                    </li>
-                    <li class="restoran-item salad-image">
-                        <picture><source srcset="../img/desktop/about-restaurant-down/saladx1.jpg 1x,./img/desktop/about-restaurant-down/saladx2.jpg 2x">
-                        <img src="./img/desktop/about-restaurant-down/saladx1.jpg" alt="photo" width="162" height="270"></picture>   
-                    </li>
-                </ul>
-                <div class="scroll-restoran">
-                <button class="scroll-button-restoran" type="button"><svg class="scroll-button" width="32" height="32"><use href="../img/sprite.svg#icon-left-arrow-big"></use></svg></button>
-                <button class="scroll-button-restoran" type="button"><svg class="scroll-button" width="32" height="32"><use href="../img/sprite.svg#icon-right-arrow-big"></use></svg></button>
+                <div class="restoran-list">
+                    <div class="restoran-item">
+                        <picture>
+                            <source srcset="./img/desktop/about-restaurant-down/steakx1.webp 1x,./img/desktop/about-restaurant-down/steakx2.webp 2x" media="(min-width: 1280px)" type="image/webp">
+                            <source srcset="./img/desktop/about-restaurant-down/steakx1.jpg 1x,./img/desktop/about-restaurant-down/steakx2.jpg 2x" media="(min-width: 1280px)" type="image/jpeg">
+                            <source srcset="./img/tablet/about-restaurant-down/steakx1.webp 1x,./img/tablet/about-restaurant-down/steakx2.webp 2x" media="(min-width: 1024px)" type="image/webp">
+                            <source srcset="./img/tablet/about-restaurant-down/steakx1.jpg 1x,./img/tablet/about-restaurant-down/steakx2.jpg 2x" media="(min-width: 1024px)" type="image/jpeg">
+                            <source srcset="../img/mobile/about-restaurant-down/steakx1.webp 1x,./img/mobile/about-restaurant-down/steakx2.webp 2x" media="(max-width: 1023px)" type="image/webp">
+                            <source srcset="./img/mobile/about-restaurant-down/steakx1.jpg.jpg 1x,./img/mobile/about-restaurant-down/steakx2.jpg 2x" media="(max-width: 1023px)" type="image/jpeg">
+                            <img src="../img/desktop/about-restaurant-down/steakx1.jpg" alt="photo">
+                        </picture>
+                    </div>
+                    <div class="restoran-item">
+                        <picture>
+                            <source srcset="./img/desktop/about-restaurant-down/kebabx1.webp 1x,./img/desktop/about-restaurant-down/kebabx2.webp 2x" media="(min-width: 1280px)" type="image/webp">
+                            <source srcset="./img/desktop/about-restaurant-down/kebabx1.jpg 1x,./img/desktop/about-restaurant-down/kebabx2.jpg 2x" media="(min-width: 1280px)" type="image/jpeg">
+                            <source srcset="./img/tablet/about-restaurant-down/kebabx1.webp 1x,./img/tablet/about-restaurant-down/kebabx2.webp 2x" media="(min-width: 1024px)" type="image/webp">
+                            <source srcset="./img/tablet/about-restaurant-down/kebabx1.jpg 1x,./img/tablet/about-restaurant-down/kebabx2.jpg 2x" media="(min-width: 1024px)" type="image/jpeg">
+                        
+                            <img class="images-hotel object2x1" src="../img/desktop/about-restaurant-down/kebabx1.jpg" alt="photo">
+                        </picture>
+                    </div>
+                    <div class="restoran-item">
+                        <picture>
+                            <source srcset="./img/desktop/about-restaurant-down/saladx1.webp 1x,./img/desktop/about-restaurant-down/saladx2.webp 2x" media="(min-width: 1280px)" type="image/webp">
+                            <source srcset="./img/desktop/about-restaurant-down/saladx1.jpg 1x,./img/desktop/about-restaurant-down/saladx2.jpg 2x" media="(min-width: 1280px)" type="image/jpeg">
+                            <source srcset="./img/tablet/about-restaurant-down/saladx1.webp 1x,./img/tablet/about-restaurant-down/saladx2.webp 2x" media="(min-width: 1024px)" type="image/webp">
+                            <source srcset="./img/tablet/about-restaurant-down/saladx1.jpg 1x,./img/tablet/about-restaurant-down/saladx2.jpg 2x" media="(min-width: 1024px)" type="image/jpeg">
+                        
+                            <img class="images-hotel object2x1" src="../img/desktop/about-restaurant-down/saladx1.jpg" alt="photo">
+                        </picture>
+                    </div>
                 </div>
-            </div>
-        </div>
-           
-        
+                <div class="button-scroll">
+                    <button class="scroll-button-hotel" type="button"><svg class="scroll-button" width="32" height="32"><use href="../img/sprite.svg#icon-left-arrow-big"></use></svg></button>
+                    <button class="scroll-button-hotel" type="button"><svg class="scroll-button" width="32" height="32"><use href="../img/sprite.svg#icon-right-arrow-big"></use></svg></button>
+                </div>
+            </div>   
+        </div>    
     </div>
-    </div>
+</section>
