@@ -1,5 +1,5 @@
 .contacts {
-  background: #fffdee;
+  background: var(--fon-lemon);
   padding-top: 36px;
   padding-bottom: 32px;
 }
@@ -15,6 +15,16 @@
 }
 
 .contacts-logo-text {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-family: 'FilmP3';
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: #494848;
   display: inline-block;
   margin-bottom: 12px;
   font-family: 'FilmP3';
@@ -73,7 +83,7 @@
 
 .contacts-hotel {
   display: flex;
-  gap: 57px;
+  gap: 48px;
   align-items: center;
   margin-bottom: 16px;
 }
@@ -104,7 +114,7 @@
 
 .contacts-address {
   margin-left: auto;
-  max-width: 260px;
+  max-width: 271px;
   padding: 8px 33px 7px 10px;
   display: flex;
   align-items: center;
@@ -139,18 +149,25 @@
   border-radius: 2px;
 }
 
+.map-mobil {
+  max-width: 384px;
+}
+
+.map-tablet {
+  display: none;
+}
+
+.map-desktop {
+  display: none;
+}
+
 /* Mobil */
 
 @media screen and (min-width: 414px) {
   .contacts-number-wrap {
     flex-direction: row;
-    gap: 8px;
+    gap: 12px;
   }
-}
-
-.contacts {
-  padding-top: 56px;
-  padding-bottom: 40px;
 }
 
 /* Tablet */
@@ -206,6 +223,20 @@
   .contacts-right {
     padding-top: 13px;
   }
+
+  .map-mobil {
+    display: none;
+  }
+
+  .map-tablet {
+    display: block;
+    width: 535px;
+  }
+
+  .map-desktop {
+    display: none;
+    width: 634px;
+  }
 }
 
 /* Desktop */
@@ -237,5 +268,19 @@
 
   .contacts-right {
     padding-top: 0;
+  }
+
+  .map-mobil {
+    display: none;
+  }
+
+  .map-tablet {
+    display: none;
+    width: 535px;
+  }
+
+  .map-desktop {
+    display: block;
+    width: 634px;
   }
 }
