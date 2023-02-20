@@ -1,5 +1,6 @@
 .about-restaurant__container {
   position: relative;
+  overflow-x: hidden;
   background: #fffdee;
 }
 
@@ -138,13 +139,14 @@
   }
 
   .restaurant__down-container img {
+    min-width: 200px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
 
   .about-restaurant__text {
     max-width: 312px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: calc(20 / 16);
     margin-bottom: 198px;
   }
 
@@ -196,7 +198,7 @@
   .about-restaurant__gallery-container {
     overflow: hidden;
     position: absolute;
-    right: -180px;
+    left: 72px;
     bottom: 72px;
     gap: 24px;
   }

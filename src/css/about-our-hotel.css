@@ -1,5 +1,6 @@
 .about-hotel__container {
   position: relative;
+  overflow-x: hidden;
   background: #fffdee;
 }
 
@@ -22,12 +23,7 @@
 .about-hotel__down-container {
   display: flex;
   align-items: center;
-  width: max-content;
   margin-left: auto;
-}
-
-.helper-div1 {
-  order: 1;
 }
 
 .about-hotel__text {
@@ -89,6 +85,7 @@
     gap: 32px;
     margin-top: 162px;
     margin-bottom: 115px;
+    width: max-content;
   }
 
   .about-hotel__down-container img {
@@ -142,6 +139,7 @@
     gap: 48px;
     margin-top: 142px;
     margin-bottom: 183px;
+    width: max-content;
   }
 
   .about-hotel__down-container img {
@@ -191,7 +189,7 @@
   }
 
   .about-hotel__down-container img {
-    min-width: 200px;
+    max-width: 200px;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 
@@ -202,7 +200,7 @@
   .about-hotel__gallery-container {
     overflow: hidden;
     position: absolute;
-    left: -180px;
+    right: 72px;
     bottom: 72px;
     gap: 24px;
   }

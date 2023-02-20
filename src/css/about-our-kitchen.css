@@ -1,5 +1,6 @@
 .about-kitchen__container {
   position: relative;
+  overflow-x: hidden;
   background: #fffdee;
 }
 
@@ -193,7 +194,7 @@
   .kitchen__gallery-container {
     overflow: hidden;
     position: absolute;
-    right: -180px;
+    left: 72px;
     bottom: 72px;
     gap: 24px;
   }
