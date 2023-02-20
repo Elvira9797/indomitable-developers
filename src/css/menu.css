@@ -142,14 +142,20 @@ table th {
 }
 
 @media screen and (max-width: 325px) {
+  .menu-item-gramm {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu-container {
+    width: auto;
+  }
+
   .menu-item-text,
   .menu-item-title,
   .menu-item-title-2 {
-    width: 190px;
-  }
-
-  .menu-item-gramm {
-    padding-left: 10px;
+    width: 180px;
   }
 }
 
