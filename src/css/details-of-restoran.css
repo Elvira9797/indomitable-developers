@@ -70,6 +70,8 @@
     width: 236px;
 }
 .view-the-menu {
+    display: block;
+    text-align: center;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
     border-radius: 25px;
