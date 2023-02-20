@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -95,7 +97,9 @@
 }
 /*----------------------------------------------------MOB-----------------------------------------------------*/
 @media screen and (min-width: 414px) {
-
+.detail-of-restoran {
+    max-width: 414px;
+}
 .object2x1 {
    display: none;
 }
@@ -104,6 +108,7 @@
 /*------------------------------------------------TAB------------------------------------------------------*/
 @media screen and (min-width: 1024px) {
 .detail-of-restoran {
+    max-width: 1024px;
     padding-top: 48px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/tablet/about-restaurant-down/ds-restoranx1.jpg);   
 }
@@ -156,7 +161,9 @@
 }
 /*----------------------------------------------------DC---------------------------------------------------*/
 @media screen and (min-width: 1280px) {
-
+.detail-of-restoran {
+    max-width: 1280px;
+}
 .button-images {
     margin-top: 40px;
 }
