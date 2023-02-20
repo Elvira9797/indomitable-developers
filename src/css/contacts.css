@@ -10,9 +10,6 @@
   gap: 32px;
 }
 
-.contacts-left {
-}
-
 .contacts-logo {
   margin-bottom: 16px;
 }
@@ -134,9 +131,6 @@
 
 .contacts-address-text address {
   font-style: normal;
-}
-
-.contacts-right {
 }
 
 .contacts-map {
