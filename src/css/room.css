@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .room__btn {
   border-radius: 25px;
   font-family: 'Montserrat';
@@ -6,11 +7,16 @@
   transition: all var(--timing-function);
 }
 
+=======
+>>>>>>> origin/room-page
 .container {
   position: relative;
   height: 100%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/room-page
 .room {
   margin: auto;
   background-color: #000000;
@@ -20,6 +26,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
+=======
+  /* background-position: 33% 0; */
+  /* background-position: -220px 0px;   */
+>>>>>>> origin/room-page
 }
 
 .slider__list {
@@ -146,12 +157,25 @@
   height: 48px;
   padding: 14px 0;
   border: 2px solid #FFFFFF;
+<<<<<<< HEAD
   background: rgba(0, 0, 0, 0.4);
   color: #F3C653;
+=======
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #F3C653;
+  font-family: 'Montserrat';
+>>>>>>> origin/room-page
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+<<<<<<< HEAD
+=======
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--timing-function);
+>>>>>>> origin/room-page
 }
 
 .room-hero__btn:hover,
@@ -161,6 +185,11 @@
 }
 
 .amenities {
+<<<<<<< HEAD
+=======
+  /* margin: auto;
+  width: 100vw; */
+>>>>>>> origin/room-page
   padding: 32px 0;
 }
 
@@ -204,19 +233,39 @@
   width: 100%;
 }
 
+<<<<<<< HEAD
 .booking__btn {
   padding: 20px;
   border: 1px solid #F3C653;
   background: #000000;
   color: #FFFFFF;
+=======
+.booking-btn {
+  padding: 20px;
+  border: 1px solid #F3C653;
+  border-radius: 25px;
+  background: #000000;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+>>>>>>> origin/room-page
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
+<<<<<<< HEAD
 }
 
 .booking__btn:hover,
 .booking__btn:focus {
+=======
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--timing-function);
+}
+
+.booking-btn:hover,
+.booking-btn:focus {
+>>>>>>> origin/room-page
   color: #000000;
   background: #F3C653;
 }
@@ -394,4 +443,8 @@ screen and (min-width: 1280px) and (min-resolution: 2dppx) {
 .room {
     background-image: url('../img/desktop/hero/hero-bedx2.jpg');
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/room-page
