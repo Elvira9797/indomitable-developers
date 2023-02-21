@@ -45,6 +45,15 @@
   fill: #000;
 }
 
+.about-hotel__svg-icon {
+  transition: fill var(--timing-function);
+}
+
+.about-hotel__svg-icon:hover,
+.about-hotel__svg-icon:focus {
+  fill: #f3c653;
+}
+
 .arrows__button {
   width: 32px;
   height: 32px;

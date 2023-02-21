@@ -27,8 +27,16 @@
 .btn:hover,
 .btn:focus {
   background-color: #fff;
-  border: 2px solid;
   border-color: #f3c653;
+}
+
+.rooms-arrow {
+  transition: fill var(--timing-function);
+}
+
+.rooms-arrow:hover,
+.rooms-arrow:focus {
+  fill: #f3c653;
 }
 
 @media screen and (max-width: 1023px) {

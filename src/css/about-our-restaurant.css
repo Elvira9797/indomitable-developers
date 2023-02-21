@@ -33,6 +33,15 @@
   display: flex;
 }
 
+.about-restaurant__svg-icon {
+  transition: fill var(--timing-function);
+}
+
+.about-restaurant__svg-icon:hover,
+.about-restaurant__svg-icon:focus {
+  fill: #f3c653;
+}
+
 .about-restaurant__sgv {
   display: flex;
   gap: 32px;
