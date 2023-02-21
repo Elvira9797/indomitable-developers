@@ -54,7 +54,10 @@
 .hero-button,
 .hero-link {
   width: 232px;
-  text-align: center;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: inherit;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.4);
@@ -64,7 +67,6 @@
   font-size: 16px;
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
-  padding: 14px 24px;
   color: var(--akzent-yellow);
 
   transition: background-color var(--timing-function),
@@ -127,15 +129,11 @@
     position: relative;
   }
 
-  .hero-link {
-    display: block;
-    padding: 14px 32px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .hero-list {
     margin-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .hero-button {
@@ -225,9 +223,9 @@
     margin-left: 40px;
   }
 
-  .hero-link {
+  /* .hero-link {
     display: block;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
