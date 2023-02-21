@@ -81,6 +81,9 @@
   color: #f3c653;
   padding: 14px 24px;
   width: 236px;
+
+  transition: background-color var(--timing-function),
+    border-color var(--timing-function);
 }
 
 .reserve-a-room:hover,
