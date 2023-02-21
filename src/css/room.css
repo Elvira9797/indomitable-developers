@@ -3,10 +3,11 @@
   font-family: 'Montserrat';
   text-align: center;
   cursor: pointer;
-  transition: all var(--timing-function);
+  transition: color var(--timing-function),
+    background-color var(--timing-function);
 }
 
-.container {
+.room__container {
   position: relative;
   height: 100%;
 }
@@ -38,12 +39,13 @@
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.65);
-  fill: #F3C653;
+  fill: #f3c653;
+  transition: fill var(--timing-function);
 }
 
 .slider__icon:hover,
 .slider__icon:focus {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .room-address {
@@ -72,7 +74,7 @@
   height: 20px;
   align-items: center;
   justify-content: center;
-  fill: #F3C653;
+  fill: #f3c653;
 }
 
 .room-addres__text {
@@ -82,7 +84,7 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 .room__thumb {
@@ -102,7 +104,7 @@
   line-height: 1.143;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .room__title--small {
@@ -116,7 +118,7 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-socials__list {
@@ -134,7 +136,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  fill: #F3C653;
+  fill: #f3c653;
 }
 
 .room-hero__btn {
@@ -144,19 +146,22 @@
   width: 232px;
   height: 48px;
   padding: 14px 0;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   background: rgba(0, 0, 0, 0.4);
-  color: #F3C653;
+  color: #f3c653;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .room-hero__btn:hover,
 .room-hero__btn:focus {
-  border: 2px solid #F3C653;
-  background: #FFFFFF;
+  border: 2px solid #f3c653;
+  background: #ffffff;
 }
 
 .amenities {
@@ -205,9 +210,9 @@
 
 .booking__btn {
   padding: 20px;
-  border: 1px solid #F3C653;
+  border: 1px solid #f3c653;
   background: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -217,7 +222,7 @@
 .booking__btn:hover,
 .booking__btn:focus {
   color: #000000;
-  background: #F3C653;
+  background-color: #f3c653;
 }
 
 .return__link {
@@ -225,12 +230,12 @@
   gap: 12px;
   justify-content: center;
   align-items: center;
-  color: #C79002;
+  color: #c79002;
 }
 
 .return__link:hover > .return__text,
 .return__link:focus > .return__text {
-  color: #F3C653;
+  color: #f3c653;
 }
 
 .return__link:hover > .return__icon,
@@ -245,6 +250,7 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: currentColor;
+  transition: color var(--timing-function);
 }
 
 .return__icon {
@@ -254,6 +260,7 @@
   align-items: center;
   justify-content: center;
   fill: currentColor;
+  transition: color var(--timing-function);
 }
 
 @media screen and (min-width: 1024px) {
@@ -337,6 +344,20 @@
     line-height: 1.2;
   }
 }
+@media screen and (max-width: 350px) {
+  .room-hero__title {
+    font-size: 24px;
+    width: 273px;
+  }
+
+  .room-hero__text {
+    width: 290px;
+  }
+
+  .room-hero__btn {
+    left: 75px;
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .room {
@@ -374,23 +395,23 @@
 }
 
 @media screen and (max-width: 1023px) and (min-device-pixel-ratio: 2),
-screen and (max-width: 1023px) and (min-resolution: 192dpi),
-screen and (max-width: 1023px) and (min-resolution: 2dppx) {
-.room {
+  screen and (max-width: 1023px) and (min-resolution: 192dpi),
+  screen and (max-width: 1023px) and (min-resolution: 2dppx) {
+  .room {
     background-image: url('../img/mobile/hero/hero-bedx2.jpg');
   }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1024px) and (min-resolution: 192dpi),
-screen and (min-width: 1024px) and (min-resolution: 2dppx) {
-.room {
+  screen and (min-width: 1024px) and (min-resolution: 192dpi),
+  screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+  .room {
     background-image: url('../img/tablet/hero/hero-bedx2.jpg');
   }
-}  
+}
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1280px) and (min-resolution: 192dpi),
-screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-.room {
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .room {
     background-image: url('../img/desktop/hero/hero-bedx2.jpg');
   }
 }

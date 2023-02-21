@@ -1,182 +1,140 @@
 .detail-of-restoran {
-    padding-top: 24px;
-    padding-bottom: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/mobile/about-restaurant-down/bg-mob-restoranx1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/mobile/about-restaurant-down/bg-mob-restoranx1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-btn {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(../img/mobile/about-restaurant-down/bg-mob-restoranx2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/mobile/about-restaurant-down/bg-mob-restoranx2.jpg);
   }
 }
 
 .restoran-logo {
-    width: 240px;
-    margin-left: auto;
+  width: 240px;
+  margin-left: auto;
 }
-.detail-restoran-logo {
-    font-family: 'FilmP3';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: calc(43/40);
-    letter-spacing: 0.3em;
-    color: #FFFFFF;
-    margin-bottom: 12px;
-}
-.text-after-logo {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-.text-afret-restoran {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: calc(15/12);
-    letter-spacing: 0.02em;
-    color: #BABABA;
-}
+
 .button-images {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-top: 48px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 48px;
 }
 .restoran-button {
-    display: flex;
-    margin-top: 32px;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  margin-top: 32px;
+  flex-direction: column;
+  gap: 16px;
 }
-.reserve-a-table {
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(20/16);
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    padding: 14px 24px;
-    width: 236px;
-}
-.view-the-menu {
-    display: block;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(20/16);
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    padding: 14px 24px;
-    width: 236px;
-}
+
 .restoran-item {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 .button-scroll {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 .scroll-button-hotel {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
 .scroll-button {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 /*----------------------------------------------------MOB-----------------------------------------------------*/
 @media screen and (min-width: 414px) {
-.detail-of-restoran {
+  .detail-of-restoran {
     max-width: 414px;
-}
-.object2x1 {
-   display: none;
-}
+  }
+  .object2x1 {
+    display: none;
+  }
 }
 
 /*------------------------------------------------TAB------------------------------------------------------*/
 @media screen and (min-width: 1024px) {
-.detail-of-restoran {
+  .detail-of-restoran {
     max-width: 1024px;
     padding-top: 48px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/tablet/about-restaurant-down/ds-restoranx1.jpg);   
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .section-btn {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(../img/tablet/about-restaurant-down/ds-restoranx2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet/about-restaurant-down/ds-restoranx1.jpg);
   }
-}
-.restoran-logo {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-btn {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/tablet/about-restaurant-down/ds-restoranx2.jpg);
+    }
+  }
+  .restoran-logo {
     width: 610px;
     margin-left: 230px;
-}
-.detail-restoran-logo {
+  }
+  .detail-restoran-logo {
     font-size: 64px;
-    line-height: calc(69/64);
+    line-height: calc(69 / 64);
     margin-bottom: 16px;
-}
-.text-after-logo {
+  }
+  .text-after-logo {
     font-size: 24px;
-    line-height: calc(29/24);
+    line-height: calc(29 / 24);
     margin-bottom: 8px;
-}
-.text-afret-restoran {
+  }
+  .text-afret-restoran {
     font-size: 16px;
-    line-height: calc(20/16);
+    line-height: calc(20 / 16);
     width: 580px;
-}
-.button-images {
+  }
+  .button-images {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-}
-.restoran-button {
+  }
+  .restoran-button {
     margin-bottom: 64px;
     margin-right: 29px;
-}
-.restoran-list {
+  }
+  .restoran-list {
     display: flex;
     gap: 34px;
-}
-.object2x1 {
+  }
+  .object2x1 {
     display: flex;
-}
-.button-scroll {
+  }
+  .button-scroll {
     display: flex;
     justify-content: flex-start;
-}
+  }
 }
 /*----------------------------------------------------DC---------------------------------------------------*/
 @media screen and (min-width: 1280px) {
-.detail-of-restoran {
+  .detail-of-restoran {
     max-width: 1280px;
-}
-.button-images {
+  }
+  .button-images {
     margin-top: 40px;
-}
-.restoran-button {
+  }
+  .restoran-button {
     margin-right: 32px;
-}
-.restoran-list {
+  }
+  .restoran-list {
     display: flex;
     gap: 87px;
-}
-.object2x1 {
+  }
+  .object2x1 {
     display: flex;
-}
+  }
 }
