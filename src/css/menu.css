@@ -1,3 +1,7 @@
+.section-menu {
+  background-color: var(--fon-dark-lemon);
+}
+
 .menu {
   box-sizing: content-box;
 }
@@ -97,6 +101,15 @@ table th {
   height: 48px;
   margin: 32px auto 0 auto;
   padding: 0;
+  transition: background-color var(--timing-function),
+    border var(--timing-function), border-color var(--timing-function);
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #f3c653;
 }
 
 .text-no-pad {

@@ -49,6 +49,12 @@
 }
 .scroll-button {
   fill: #ffffff;
+  transition: fill var(--timing-function);
+}
+
+.scroll-button:hover,
+.scroll-button:focus {
+  fill: #f3c653;
 }
 /*----------------------------------------------------MOB-----------------------------------------------------*/
 @media screen and (min-width: 414px) {

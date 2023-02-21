@@ -15,60 +15,60 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 413px) {
   .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/mobile/hero/hero-bedx1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/mobile/hero/hero-bedx1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
+@media screen and (max-width: 413px) and (min-device-pixel-ratio: 2),
+  screen and (max-width: 413px) and (min-resolution: 192dpi),
+  screen and (max-width: 413px) and (min-resolution: 2dppx) {
   .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/mobile/hero/hero-bedx2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/mobile/hero/hero-bedx2.jpg);
+  }
+}
+
+/* -------------------- */
+
+@media screen and (min-width: 414px) {
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet/hero/hero-bedx1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 414px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 414px) and (min-resolution: 192dpi),
+  screen and (min-width: 414px) and (min-resolution: 2dppx) {
   .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/tablet/hero/hero-bedx1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet/hero/hero-bedx2.jpg);
   }
 }
 
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1024px) and (min-resolution: 192dpi),
-screen and (min-width: 1024px) and (min-resolution: 2dppx) {
-  .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/tablet/hero/hero-bedx2.jpg);
-  }
-}
+/* ------------- */
 
 @media screen and (min-width: 1280px) {
   .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/desktop/hero/hero-bedx1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/desktop/hero/hero-bedx1.jpg);
   }
 }
 
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1280px) and (min-resolution: 192dpi),
-screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url(../img/desktop/hero/hero-bedx2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/desktop/hero/hero-bedx2.jpg);
   }
 }

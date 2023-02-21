@@ -165,7 +165,7 @@
 
 @media screen and (min-width: 414px) and (max-width: 1023px) {
   .mimino-tittle {
-    width: 414px;
+    width: 304px;
   }
 
   .hero-paragraph {
@@ -184,7 +184,6 @@
 
   .hero-list {
     display: flex;
-    justify-content: space-between;
   }
 
   .hero-social-item {
@@ -209,10 +208,6 @@
     line-height: calc(20 / 16);
   }
 
-  .hero-adress {
-    margin-right: 137px;
-  }
-
   .hero-paragraph {
     margin-bottom: 137px;
     font-size: 36px;
@@ -223,9 +218,9 @@
     margin-left: 40px;
   }
 
-  /* .hero-link {
-    display: block;
-  } */
+  .hero-list-item:first-child {
+    margin-right: 180px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -248,8 +243,8 @@
     margin-bottom: 64px;
   }
 
-  .hero-adress {
-    margin-right: 253px;
+  .hero-list-item:first-child {
+    margin-right: 206px;
   }
 
   .hero-list-item:last-child {
@@ -257,7 +252,7 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 413px) {
   .hero-homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/mobile/hero/hero-homepagex1.jpg);
@@ -267,36 +262,37 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media screen and (max-width: 413px) and (min-device-pixel-ratio: 2),
+  screen and (max-width: 413px) and (min-resolution: 192dpi),
+  screen and (max-width: 413px) and (min-resolution: 2dppx) {
   .hero-homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/mobile/hero/hero-homepagex2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* -------------------- */
+
+@media screen and (min-width: 414px) {
   .hero-homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/tablet/hero/hero-homepagex1.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
   }
 }
 
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
-  screen and (min-width: 1024px) and (min-resolution: 192dpi),
-  screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 414px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 414px) and (min-resolution: 192dpi),
+  screen and (min-width: 414px) and (min-resolution: 2dppx) {
   .hero-homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../img/tablet/hero/hero-homepagex2.jpg);
   }
 }
+
+/* ------------- */
 
 @media screen and (min-width: 1280px) {
   .hero-homepage {

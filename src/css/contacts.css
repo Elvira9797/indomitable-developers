@@ -85,11 +85,14 @@
   color: #494848;
 }
 
+.contacts-list {
+  margin-bottom: 16px;
+}
+
 .contacts-hotel {
   display: flex;
   gap: 48px;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .contacts-hotel-text {
@@ -197,6 +200,10 @@
     margin-bottom: 8px;
   }
 
+  .contacts-list {
+    margin-bottom: 48px;
+  }
+
   .contacts-restaurant {
     gap: 8px;
     margin-bottom: 24px;
@@ -206,7 +213,6 @@
 
   .contacts-hotel {
     gap: 8px;
-    margin-bottom: 48px;
     align-items: flex-start;
     flex-direction: column;
   }

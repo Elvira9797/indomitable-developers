@@ -18,15 +18,15 @@
   font-family: 'Montserrat', sans-serif;
   src: url('../fonts/Montserrat-Bold.woff') format('woff'),
     url('../fonts/Montserrat-Bold.ttf') format('ttf');
-  font-weight: 600;
+  font-weight: 700;
   font-style: Bold;
 }
 
 @font-face {
   font-family: 'Montserrat', sans-serif;
   src: url('../fonts/Montserrat-SemiBold.woff') format('woff'),
-    url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
-  font-weight: 700;
+    url('../fonts/Montserrat-Medium.ttf') format('ttf');
+  font-weight: 600;
   font-style: SemiBold;
 }
 

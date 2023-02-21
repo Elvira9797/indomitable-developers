@@ -34,6 +34,15 @@
   display: flex;
 }
 
+.kitchen__svg-icon {
+  transition: fill var(--timing-function);
+}
+
+.kitchen__svg-icon:hover,
+.kitchen__svg-icon:focus {
+  fill: #f3c653;
+}
+
 .kitchen__sgv {
   display: flex;
   gap: 32px;
