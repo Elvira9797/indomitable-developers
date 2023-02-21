@@ -1,3 +1,7 @@
+.map-mobil iframe {
+  width: 100%;
+}
+
 .contacts {
   background: var(--fon-lemon);
   padding-top: 36px;
