@@ -1,6 +1,6 @@
 .room__btn {
   border-radius: 25px;
-  font-family: 'Montserrat';
+  font-family: inherit;
   text-align: center;
   cursor: pointer;
   transition: color var(--timing-function),
